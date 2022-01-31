@@ -1,5 +1,5 @@
 var fs = require('fs')
-var srt = fs.readFileSync('Marley.srt', 'utf8')
+var srt = fs.readFileSync('Filme.srt', 'utf8')
 const parser = require('subtitles-parser')
 
 const srtArray = parser.fromSrt(srt)
